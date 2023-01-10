@@ -1,0 +1,372 @@
+* {
+    max-width: 100%;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+}
+
+body{
+
+    font-family: fantasy;
+    
+}
+
+
+#headeruno{
+    background-color: blue;
+    display: grid;
+    grid-template-columns: 40% 40% 40%;
+    
+    align-items: center;
+    height: 10rem;
+    
+}
+/* logo dGameHard */
+#logopagina{
+    width: 300px;
+    margin-left: 40px;
+    
+}
+
+/* Buscador */
+#buscador{
+    background-color: white;
+    width: 25em;
+    height: 1.5em;
+    border: 1px solid white;
+    
+}
+
+#buscador>input{
+    width: 100%;
+}
+
+
+/* Contenedor de carro y iniciar sesion */
+#inicio{
+    display: flex;
+    align-items: start;
+    justify-content: space-evenly;
+  
+    width: 200px;
+    height: 90px;
+    margin-left: 15%;
+    
+}
+
+/* carrito de compra */
+#carro{
+    width: 40px;
+    
+    margin-top: 15% ;
+    margin-left: 7%;
+    
+    
+    
+}
+
+/* Boton inicio sesion */
+#inicio>button{
+    width: 150px;
+    height: 35px;
+    margin-top: 2rem;
+    border-bottom: none;
+    overflow: hidden;
+    border-radius: 20px;
+    border: 2px solid gray;
+    background-color: blue;
+    color: white;
+    letter-spacing: 2px;
+    padding: 4px 2px 4px;
+    
+}
+
+/* efectos de boton iniciar sesion */
+
+#inicio>button:hover{
+    cursor: pointer;
+    font-weight:300;
+    transform: scale(1.1);
+    box-shadow: 0 0 10px grey, 0 0 4px white, 0 0 30px white;
+    transition: 1s;
+    
+}
+
+
+/* Menu de navegacion */
+#headerdos{background-color: blue;
+    
+    background-size: 100vh;
+    display: flex;
+    justify-content: center;
+    width: 100vw;
+    background-repeat: no-repeat;
+    background-position: center center;
+
+}
+
+
+/* Header donde se encuentra el menu */
+    
+#headerdos>nav>ul{
+    list-style: none;
+    margin: 1.3rem;
+        
+    padding: 0;
+    
+}
+
+/* Modifica la lista*/
+#headerdos>nav>ul>li{
+    float: left;
+    margin: 0rem;
+    padding: 0rem;
+    
+   
+}
+
+
+
+/* Modifica los A del menu */
+
+#headerdos>nav>ul>li>a{
+    color: white;
+    text-decoration: none;
+    font-size: 1.2rem;
+    display: flex;
+    padding: 0.5em;
+    margin-left: 1em;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+}
+      
+
+/* Efectos de los A del Menu*/
+#headerdos>nav>ul>li>a:hover{box-shadow: 0 0 15px white, 0 0 20px white, 0 0 30px white;
+border-radius: 10px;
+transition: 1s;
+}    
+
+
+/*Imagen banner*/
+
+#seccionbanner>img{
+    width: 100%;
+    border: white solid 3px;
+}
+
+
+
+#seccioncuatro{
+    display: flex;
+    background-color: white;
+    background-size: 100%;
+    background-repeat:no-repeat;
+    width: 100vh;
+}
+
+
+
+
+/* Seccion envios y formas de pago */
+
+.enviosypagos{
+    display: flex;
+    justify-content: space-between;
+   
+}
+
+
+
+.logos{
+    width: 16rem;
+   
+}
+
+.cajas{
+    display: flex;
+    
+    
+    
+    
+}
+
+.letras{
+    margin-top: 6rem;
+   
+    height: 6rem;
+    
+}
+
+.letras>h3{
+    color: blue;
+    font-size: x-large;
+}
+
+.letras>p{
+    color: violet;
+    margin-top: 2em;
+    font-size: medium;
+}
+
+
+/* Ultimas novedades*/
+
+#ultimasnovedades{
+    margin-left: 40px;
+    margin-top: 60px;
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: flex-start;
+    font-size: x-large;
+    color: blue;
+
+    
+}
+
+
+/* Ultimas novedades img , nombre y precio */
+
+
+main>section{
+    display: flex;
+     justify-content: space-between;
+     flex-wrap: nowrap;
+     width: 100%;
+     
+}
+
+.tarjetas{
+    width: 100%;
+    display: grid;
+    padding: 20px;
+    flex-wrap: wrap;
+    box-shadow: 2px 0px 10px gray;
+    grid-template-columns: repeat(3);
+    
+
+
+}
+
+/* Imagen de Producto */
+.tarjetas>img{
+    width: 50%;
+    box-shadow: 2px 2px 15px black;
+    margin: 25px;
+    margin-left: 25%;
+    
+
+
+}
+ 
+/* efecto al pasar mouse por imagen */
+.tarjetas>img:hover{
+    width: 17vw;
+    transition: 1s;
+
+
+}
+
+
+/* Nombre de producto */
+.tarjetas>h4{
+    
+    font-size: large;
+    color: blue;
+    margin-bottom: 10px;
+    
+}
+
+
+/* Precio */
+.tarjetas>p{
+    font-size: large;
+    color: violet;
+    
+    
+}
+
+
+/*Sponsors*/
+
+#seccioncuatro{
+height: 100%;
+display: inline;
+flex-wrap: nowrap;
+
+
+
+}
+
+#seccioncuatro>h3{
+    color: blue;
+    margin-top: 45px;
+    margin-bottom: 30px;
+    margin-left: 40px;
+    
+    font-size: 29px;
+    
+    
+}
+
+#seccioncuatro>div>img{
+    width: auto;
+    height: 210px;
+    margin-left: 50px;
+    animation-name: fotogramasponsors;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-delay: 1s;
+
+    
+    
+}
+
+
+@keyframes fotogramasponsors{
+
+    0%{transform: scale(1) rotate(0deg); }
+
+    15% {transform: scale(1.1) rotate(-1deg);}
+
+    25%{ transform: scale(1.1) rotate(1deg);}
+
+    50%{ transform: scale(1.1) rotate(-2deg) ;}
+
+    75%{ transform: scale(1.1) rotate(2deg);}
+
+    100%{ transform: scale(1) rotate(0deg);}
+
+
+}
+
+
+/*Footer*/
+
+footer{
+    display: flex;
+    justify-content: space-around;
+    height: 150px;
+    width: 100vw;
+    background-color: blue;
+    color: white;
+    margin-top: 150px;
+    align-items: center;
+}
+
+
+footer>a>img{
+    width: auto;
+    height: 40px;
+    
+
+    
+}
+
+
+
+/* Tablet */
+
+/* Celular */
+

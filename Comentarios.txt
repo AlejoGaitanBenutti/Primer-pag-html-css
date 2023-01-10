@@ -1,0 +1,14 @@
+Hice algunos cambios en el diseño en la parte de las "ultimas novedades" en cuanto al posicionamiento de los elementos,
+me gusto como quedaba mas en la parte inferior el "nombre de producto" y "precio" de las imagenes.
+
+Tambien tuve en cuenta la devolucion que me dio, intente usar mas clases y no tantos id, pero no con todo porque tenia que cambiar
+demasiadas cosas y no se si me va a dar el tiempo.
+
+Tambien remplaze los position que habia usado antes, por flex y grid! 
+
+El cuanto al diseño de la pagina, no me gusto mucho, me parece medio aburrido y comun, pero como habia elegido de un principio ese 
+modelo a seguir, segui con ese, tengo otro diseño hecho que voy a hacer luego para practicar que me gusto mas. 
+
+En cuanto a responsive, estoy haciendolo, pero no voy a llegar para la entrega de hoy.
+
+Saludos!
